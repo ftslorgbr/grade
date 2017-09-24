@@ -2,10 +2,9 @@
 
 Esse projeto foi feito seguindo o [tutorial Tour of Heroes](https://angular.io/tutorial/toh-pt1) do angular.io.
 
-A publicacao dele se dah usando o [angular-cli-ghpages](https://github.com/angular-buch/angular-cli-ghpages) com o comando:
+Para gerar build
 
-> ng build --prod --base-href "http://ftsl.org.br/grade/" && ngh
-
+> ng build --prod --base-href "https://ftsl.websiteseguro.com/ftsl9/grade/"
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.4.3.
 
