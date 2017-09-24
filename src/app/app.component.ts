@@ -76,6 +76,26 @@ export class AppComponent implements OnInit {
         default: tipo = '';
         }
         hero.type = tipo;
+
+        var sala = '';
+        switch(parseInt(hero.place)) {
+        case 1 : sala = 'Auditório'; break;
+        case 2 : sala = 'Mini-Auditório'; break;
+        case 3 : sala = 'Sala 1'; break;
+        case 4 : sala = 'Sala 2'; break;
+        case 5 : sala = 'Sala 3'; break;
+        case 6 : sala = 'Sala 4'; break;
+        case 6 : sala = 'Sala x'; break;
+        case 7 : sala = 'Sala x'; break;
+        case 8 : sala = 'Sala x'; break;
+        case 9 : sala = 'Lab 1'; break;
+        case 10: sala = 'Lab 2'; break;
+        case 11: sala = 'Lab 3'; break;
+        case 12: sala = 'Lab 4'; break;
+        case 13: sala = 'Lab 5'; break;
+        default: sala = 'A definir';
+        }
+        hero.place = sala;
         return hero;
     }
 
