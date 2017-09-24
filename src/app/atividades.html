@@ -1,31 +1,31 @@
-<h1>Atividades</h1>
-<h2>27</h2>
+<h1><a href="http://ftsl.org.br">FTSL 9</a> - Atividades - <a href="https://ftsl.websiteseguro.com/ftsl9/grade/mapa.svg">mapa</a> - <a href="https://play.google.com/store/apps/details?id=br.org.ftsl">app</a> <a href="https://github.com/ftslorgbr/9/raw/master/ftsl.apk">(apk)</a></h1>
+<h2>27/09/2017 - quarta-feira</h2>
 <ul>
 <li *ngFor="let hero of primeiro"
 [class.selected]="hero === selectedHero">
-<a href="#detalhe" (click)="onSelect(hero)">
+<a href="https://ftsl.websiteseguro.com/ftsl9/grade/detail.html?t=9&id=&pid={{ hero.pid }}&type={{ hero.type === 'Minicurso' ? 2 : 1 }}" (click)="onSelect(hero)">
 {{hero.authorId}}
 [{{hero.type}} - {{hero.place}}]
 {{hero.title}}
 </a>
 </li>
 </ul>
-<h2>28</h2>
+<h2>28/09/2017 - quinta-feira</h2>
 <ul>
 <li *ngFor="let hero of segundo"
 [class.selected]="hero === selectedHero">
-<a href="#detalhe" (click)="onSelect(hero)">
+<a href="https://ftsl.websiteseguro.com/ftsl9/grade/detail.html?t=9&id=&pid={{ hero.pid }}&type={{ hero.type === 'Minicurso' ? 2 : 1 }}" (click)="onSelect(hero)">
 {{hero.authorId}}
 [{{hero.type}} - {{hero.place}}]
 {{hero.title}}
 </a>
 </li>
 </ul>
-<h2>29</h2>
+<h2>29/09/2017 - sexta-feira</h2>
 <ul>
 <li *ngFor="let hero of terceiro"
 [class.selected]="hero === selectedHero">
-<a href="#detalhe" (click)="onSelect(hero)">
+<a href="https://ftsl.websiteseguro.com/ftsl9/grade/detail.html?t=9&id=&pid={{ hero.pid }}&type={{ hero.type === 'Minicurso' ? 2 : 1 }}" (click)="onSelect(hero)">
 {{hero.authorId}}
 [{{hero.type}} - {{hero.place}}]
 {{hero.title}}
