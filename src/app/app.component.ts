@@ -34,36 +34,86 @@ export class AppComponent implements OnInit {
                     this.terceiro.push(this.traduzir(hero));
                 }
             }
-            this.primeiro.sort(function(a, b){return parseInt(a.time) - parseInt(b.time)});
-            this.segundo.sort(function(a, b){return parseInt(a.time) - parseInt(b.time)});
-            this.terceiro.sort(function(a, b){return parseInt(a.time) - parseInt(b.time)});
+            this.primeiro.sort(function(a,b){
+        var o1 = a.time.toLowerCase();
+        var o2 = b.time.toLowerCase();
+
+        var p1 = a.place.toLowerCase();
+        var p2 = b.place.toLowerCase();
+
+        if (o1 < o2) return -1;
+        if (o1 > o2) return 1;
+        if (p1 < p2) return -1;
+        if (p1 > p2) return 1;
+        return 0;
+            });
+            this.segundo.sort(function(a,b){
+        var o1 = a.time.toLowerCase();
+        var o2 = b.time.toLowerCase();
+
+        var p1 = a.place.toLowerCase();
+        var p2 = b.place.toLowerCase();
+
+        if (o1 < o2) return -1;
+        if (o1 > o2) return 1;
+        if (p1 < p2) return -1;
+        if (p1 > p2) return 1;
+        return 0;
+            });
+            this.terceiro.sort(function(a,b){
+        var o1 = a.time.toLowerCase();
+        var o2 = b.time.toLowerCase();
+
+        var p1 = a.place.toLowerCase();
+        var p2 = b.place.toLowerCase();
+
+        if (o1 < o2) return -1;
+        if (o1 > o2) return 1;
+        if (p1 < p2) return -1;
+        if (p1 > p2) return 1;
+        return 0;
+            });
         });
+    }
+
+    ordenar(a: Hero, b: Hero) {
+        var o1 = a.time.toLowerCase();
+        var o2 = b.time.toLowerCase();
+
+        var p1 = a.place.toLowerCase();
+        var p2 = b.place.toLowerCase();
+
+        if (o1 < o2) return -1;
+        if (o1 > o2) return 1;
+        if (p1 < p2) return -1;
+        if (p1 > p2) return 1;
+        return 0;
     }
 
     traduzir(hero: Hero): Hero {
         var original = parseInt(hero.time);
-        var hour = 9;
+        var hour = '09';
         switch(original) {
-        case 1 : hour = 9; break;
-        case 2 : hour = 10; break;
-        case 3 : hour = 11; break;
-        case 4 : hour = 12; break;
-        case 5 : hour = 13; break;
-        case 6 : hour = 14; break;
-        case 7 : hour = 15; break;
-        case 8 : hour = 16; break;
-        case 9 : hour = 17; break;
-        case 10: hour = 18; break;
-        case 11: hour = 19; break;
-        case 12: hour = 20; break;
-        case 13: hour = 21; break;
-        case 20: hour = 9; break;
-        case 22: hour = 19; break;
-        default: hour = original;
+        case 1 : hour = '09'; break;
+        case 2 : hour = '10'; break;
+        case 3 : hour = '11'; break;
+        case 4 : hour = '12'; break;
+        case 5 : hour = '13'; break;
+        case 6 : hour = '14'; break;
+        case 7 : hour = '15'; break;
+        case 8 : hour = '16'; break;
+        case 9 : hour = '17'; break;
+        case 10: hour = '18'; break;
+        case 11: hour = '19'; break;
+        case 12: hour = '20'; break;
+        case 13: hour = '21'; break;
+        case 20: hour = '09'; break;
+        case 22: hour = '19'; break;
+        default: hour = '9';
         }
         hero.time = hour.toString();
         if (original === 20 || original === 22) {
-            hero.authorId = hour + ':00 - ' + (hour+3) + ':00';
+            hero.authorId = hour + ':00 - ' + (parseInt(hour)+3) + ':00';
         } else {
             hero.authorId = hour + ':00 - ' + hour + ':50';
         }
