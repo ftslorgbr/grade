@@ -1,4 +1,8 @@
-# MyApp
+# Grade para ftsl
+
+Esse projeto foi feito seguindo o [tutorial Tour of Heroes](https://angular.io/tutorial/toh-pt1) do angular.io.
+
+A publicacao dele se dah usando o [angular-cli-ghpages](https://github.com/angular-buch/angular-cli-ghpages)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.4.3.
 
