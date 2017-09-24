@@ -1,0 +1,36 @@
+<h1>Atividades</h1>
+<h2>27</h2>
+<ul>
+<li *ngFor="let hero of primeiro"
+[class.selected]="hero === selectedHero">
+<a href="#detalhe" (click)="onSelect(hero)">
+{{hero.authorId}}
+[{{hero.type}} - sala {{hero.place}}]
+{{hero.title}}
+</a>
+</li>
+</ul>
+<h2>28</h2>
+<ul>
+<li *ngFor="let hero of segundo"
+[class.selected]="hero === selectedHero">
+<a href="#detalhe" (click)="onSelect(hero)">
+{{hero.authorId}}
+[{{hero.type}} - sala {{hero.place}}]
+{{hero.title}}
+</a>
+</li>
+</ul>
+<h2>29</h2>
+<ul>
+<li *ngFor="let hero of primeiro"
+[class.selected]="hero === selectedHero">
+<a href="#detalhe" (click)="onSelect(hero)">
+{{hero.authorId}}
+[{{hero.type}} - sala {{hero.place}}]
+{{hero.title}}
+</a>
+</li>
+</ul>
+<a name=detalhe></a>
+<hero-detail [hero]="selectedHero"></hero-detail>
