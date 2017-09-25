@@ -798,6 +798,18 @@ export const HEROES: Hero[] =
     "curriculum": "\u00c9 professor na UTFPR, campus francisco beltr\u00e3o. Doutorando na UFPR e entusiasta Software Livre, GNU, impressoras 3D, programa\u00e7\u00e3o em drones, internet das coisas, PHP e Intelig\u00eancia artificial",
     "authorName": "Wellton Costa de Oliveira",
     "authorId": "338",
+    "description": "PHP \u00e9 a linguagem mais utilizada no mundo quando se trata de desenvolvimento web. Esta palestra mostrar\u00e1 na pr\u00e1tica como o PHP aprende usando Redes Neurais, como ele consegue reconhecer Faces e at\u00e9 como controla um drone.",
+    "title": "Conhe\u00e7a como PHP aprende usando neur\u00f4nios, como reconhece faces e at\u00e9 como controla Drone.",
+    "place": "9",
+    "type": "1",
+    "time": "6",
+    "date": "1",
+    "pid": "278"
+  },
+  {
+    "curriculum": "\u00c9 professor na UTFPR, campus francisco beltr\u00e3o. Doutorando na UFPR e entusiasta Software Livre, GNU, impressoras 3D, programa\u00e7\u00e3o em drones, internet das coisas, PHP e Intelig\u00eancia artificial",
+    "authorName": "Wellton Costa de Oliveira",
+    "authorId": "338",
     "description": "Esta oficina tem como objetivo mostrar na pr\u00e1tica como funciona o PHP b\u00e1sico e depois como fazer uma conex\u00e3o com os SGBDs MySQL e PostgreSQL. Se voc\u00ea est\u00e1 procurando uma linguagem web de f\u00e1cil entendimento e conhecer ou relembrar Banco de Dados usando MySQL ou PostgreSQL, esta oficina \u00e9 para voc\u00ea.",
     "title": "PHP com MySQL e PostgreSQL",
     "place": "11",
