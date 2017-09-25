@@ -131,7 +131,7 @@ export class AppComponent implements OnInit {
         switch(parseInt(hero.place)) {
         case 1 : sala = 'Auditório'; break;
         case 2 : sala = 'Mini-Auditório'; break;
-        case 3 : sala = 'B106'; break;
+        case 3 : sala = 'B303'; break;
         case 4 : sala = 'B107'; break;
         case 5 : sala = 'B108'; break;
         case 6 : sala = 'B109'; break;
@@ -139,7 +139,7 @@ export class AppComponent implements OnInit {
         case 8 : sala = 'B202'; break;
         case 9 : sala = 'B205'; break;
         case 10: sala = 'B301'; break;
-        case 11: sala = 'B303'; break;
+        case 11: sala = 'B107'; break;
         case 12: sala = 'Q104'; break;
         case 13: sala = 'Q105'; break;
         case 14: sala = 'Q107'; break;
@@ -147,6 +147,7 @@ export class AppComponent implements OnInit {
         case 16: sala = 'Q110'; break;
         default: sala = 'A definir';
         }
+        sala = 'A definir';
         hero.place = sala;
         return hero;
     }
