@@ -131,17 +131,20 @@ export class AppComponent implements OnInit {
         switch(parseInt(hero.place)) {
         case 1 : sala = 'Auditório'; break;
         case 2 : sala = 'Mini-Auditório'; break;
-        case 3 : sala = 'Sala 1'; break;
-        case 4 : sala = 'Sala 2'; break;
-        case 5 : sala = 'Sala 3'; break;
-        case 6 : sala = 'Sala 4'; break;
-        case 7 : sala = 'Sala x'; break;
-        case 8 : sala = 'Sala x'; break;
-        case 9 : sala = 'Lab 1'; break;
-        case 10: sala = 'Lab 2'; break;
-        case 11: sala = 'Lab 3'; break;
-        case 12: sala = 'Lab 4'; break;
-        case 13: sala = 'Lab 5'; break;
+        case 3 : sala = 'B106'; break;
+        case 4 : sala = 'B107'; break;
+        case 5 : sala = 'B108'; break;
+        case 6 : sala = 'B109'; break;
+        case 7 : sala = 'B201'; break;
+        case 8 : sala = 'B202'; break;
+        case 9 : sala = 'B205'; break;
+        case 10: sala = 'B301'; break;
+        case 11: sala = 'B303'; break;
+        case 12: sala = 'Q104'; break;
+        case 13: sala = 'Q105'; break;
+        case 14: sala = 'Q107'; break;
+        case 15: sala = 'Q108'; break;
+        case 16: sala = 'Q110'; break;
         default: sala = 'A definir';
         }
         hero.place = sala;
