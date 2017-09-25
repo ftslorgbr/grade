@@ -141,13 +141,12 @@ export class AppComponent implements OnInit {
         case 10: sala = 'B202'; break;
         case 11: sala = 'B107'; break;
         case 12: sala = 'B106'; break;
-        case 13: sala = 'Q105'; break;
+        case 13: sala = 'Q110'; break;
         case 14: sala = 'Q107'; break;
         case 15: sala = 'Q108'; break;
-        case 16: sala = 'Q110'; break;
+        case 16: sala = 'Q105'; break;
         default: sala = 'A definir';
         }
-        sala = 'A definir';
         hero.place = sala;
         return hero;
     }
