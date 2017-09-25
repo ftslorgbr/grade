@@ -136,9 +136,9 @@ export class AppComponent implements OnInit {
         case 5 : sala = 'B108'; break;
         case 6 : sala = 'B205'; break;
         case 7 : sala = 'B201'; break;
-        case 8 : sala = 'B202'; break;
+        case 8 : sala = 'B301'; break;
         case 9 : sala = 'B109'; break;
-        case 10: sala = 'B301'; break;
+        case 10: sala = 'B202'; break;
         case 11: sala = 'B107'; break;
         case 12: sala = 'Q104'; break;
         case 13: sala = 'Q105'; break;
