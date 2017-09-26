@@ -3,7 +3,7 @@
 <ul>
     <li *ngFor="let hero of primeiro"
         [class.selected]="hero === selectedHero">
-        <a href="https://ftsl.websiteseguro.com/ftsl9/grade/{{ hero.type === 'Minicurso' ? 'grade' : 'detail' }}.html?t=9&id=&pid={{ hero.pid }}&type=1" (click)="onSelect(hero)">
+        <a href="https://ftsl.websiteseguro.com/ftsl9/grade/detail.html?t=9&id=&pid={{ hero.pid }}&type={{ hero.type === 'Minicurso' ? '2' : '1' }}" (click)="onSelect(hero)">
             {{hero.authorId}}
             [{{hero.type}} - {{hero.place}}]
             {{hero.title}}
@@ -14,7 +14,7 @@
 <ul>
     <li *ngFor="let hero of segundo"
         [class.selected]="hero === selectedHero">
-        <a href="https://ftsl.websiteseguro.com/ftsl9/grade/{{ hero.type === 'Minicurso' ? 'grade' : 'detail' }}.html?t=9&id=&pid={{ hero.pid }}&type=1" (click)="onSelect(hero)">
+        <a href="https://ftsl.websiteseguro.com/ftsl9/grade/detail.html?t=9&id=&pid={{ hero.pid }}&type={{ hero.type === 'Minicurso' ? '2' : '1' }}" (click)="onSelect(hero)">
             {{hero.authorId}}
             [{{hero.type}} - {{hero.place}}]
             {{hero.title}}
@@ -25,7 +25,7 @@
 <ul>
     <li *ngFor="let hero of terceiro"
         [class.selected]="hero === selectedHero">
-        <a href="https://ftsl.websiteseguro.com/ftsl9/grade/{{ hero.type === 'Minicurso' ? 'grade' : 'detail' }}.html?t=9&id=&pid={{ hero.pid }}&type=1" (click)="onSelect(hero)">
+        <a href="https://ftsl.websiteseguro.com/ftsl9/grade/detail.html?t=9&id=&pid={{ hero.pid }}&type={{ hero.type === 'Minicurso' ? '2' : '1' }}" (click)="onSelect(hero)">
             {{hero.authorId}}
             [{{hero.type}} - {{hero.place}}]
             {{hero.title}}
