@@ -32,10 +32,10 @@ export const HEROES: Hero[] =
     "authorId": "265",
     "description": "Neste workshop aprenderemos como implementar um cadastro de uma aplica\u00e7\u00e3o web usando a linguagem de programa\u00e7\u00e3o PHP com o aux\u00edlio do Zend Framework 3.",
     "title": "Criando microsservi\u00e7os com PHP e Zend Expressive",
-    "place": "4",
+    "place": "9",
     "type": "2",
     "time": "20",
-    "date": "1",
+    "date": "3",
     "pid": "175"
   },
   {
@@ -349,18 +349,6 @@ export const HEROES: Hero[] =
     "time": "3",
     "date": "2",
     "pid": "211"
-  },
-  {
-    "curriculum": "Graduado em Processamento de Dados pela Universidade Estadual de Maring\u00e1 e mestrado em Inform\u00e1tica Aplicada pela PUC do Paran\u00e1. Professor de Ensino Superior na UTFPR, C\u00e2mpus Curitiba (Departamento Acad\u00eamico de Eletr\u00f4nica). Atua principalmente com fundamentos de programa\u00e7\u00e3o, algoritmos e estruturas de dados, banco de dados, desenvolvimento de sistemas, sistemas especialistas, sistemas de informa\u00e7\u00e3o em sa\u00fade, linguagens de programa\u00e7\u00e3o (Pascal, Delphi, C, Java e Python).",
-    "authorName": "Omero Francisco Bertol",
-    "authorId": "13747",
-    "description": "Introdu\u00e7\u00e3o a Linguagem Python\r\nPrimeiro Programa\r\nOperadores aritm\u00e9ticos, relacionais e booleanos\r\nVari\u00e1veis, express\u00f5es e comandos\r\nEstruturas de decis\u00e3o: comando \"if\"\r\nEstruturas de repeti\u00e7\u00e3o: comandos \"while\" e \"for\"\r\nListas\r\nFun\u00e7\u00f5es\r\n",
-    "title": "Introdu\u00e7\u00e3o a Linguagem Python",
-    "place": "17",
-    "type": "2",
-    "time": "22",
-    "date": "3",
-    "pid": "212"
   },
   {
     "curriculum": "Cursando especializa\u00e7\u00e3o em Engenharia de Software (PUC-PR). Graduado no curso de Tecnologia em Sistemas para a Internet (UTFPR-GP). Com quase 4 anos de experi\u00eancia trabalhando como desenvolvedor web full stack. Membro do Grupo de Usu\u00e1rios Ruby do Paran\u00e1 (GURU-PR). J\u00e1 palestrou em edi\u00e7\u00f5es anteriores do FTSL e no TDC em Florian\u00f3polis e S\u00e3o Paulo. Atualmente trabalha como desenvolvedor pleno na empresa Softfocus.",
@@ -824,10 +812,10 @@ export const HEROES: Hero[] =
     "authorId": "338",
     "description": "Esta oficina tem como objetivo mostrar na pr\u00e1tica como funciona o PHP b\u00e1sico e depois como fazer uma conex\u00e3o com os SGBDs MySQL e PostgreSQL. Se voc\u00ea est\u00e1 procurando uma linguagem web de f\u00e1cil entendimento e conhecer ou relembrar Banco de Dados usando MySQL ou PostgreSQL, esta oficina \u00e9 para voc\u00ea.",
     "title": "PHP com MySQL e PostgreSQL",
-    "place": "9",
+    "place": "10",
     "type": "2",
     "time": "20",
-    "date": "3",
+    "date": "1",
     "pid": "279"
   },
   {
